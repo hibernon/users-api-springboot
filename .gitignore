@@ -55,3 +55,5 @@ logs/
 # Volume data (se usar bind mounts locais)
 postgres-data/
 
+### Outros ###
+
