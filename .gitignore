@@ -1,10 +1,19 @@
+### Maven ###
 HELP.md
 target/
-.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+### STS - Eclipse ###
 .apt_generated
 .classpath
 .factorypath
@@ -12,12 +21,6 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +34,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Sistema Operacional ###
+.DS_STORE
+Thumbs.db
+*.swp
+
+### Variáveis de ambiente ###
+# NUNCA commite arquivos com senhas!
+.env
+.env.local
+.env.production
+*.env
+
+### Logs ###
+*.log
+logs/
+
+### Docker ###
+# Volume data (se usar bind mounts locais)
+postgres-data/
+
